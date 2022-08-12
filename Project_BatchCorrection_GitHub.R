@@ -17,7 +17,7 @@ library(harmony)
 library(Seurat)
 library('cowplot')
 
-#Existing dataframes after gene expression extraction are:
+#Existing matrices/arrays after gene expression extraction are:
 #counts_Xin and counts_Lawlor 
 counts_Xin_Lawlor = cbind(counts_Xin,counts_Lawlor)
 
